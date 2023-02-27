@@ -1,0 +1,17 @@
+<h1>Education</h1>
+
+    <h4>Bachelor of technology</h4>
+<table border=1>
+<tr style='font-weight: bold;'>
+    <td>Education Category</td>
+    <td>Name of Institute</td>
+    <td>Location</td>
+    <td>Percentage</td>
+</tr>
+  <tr *ngFor='let e of educationDetails'>
+      <td>{{e.institute}}</td>
+      <td>{{e.name}}</td>
+      <td>{{e.location}}</td>
+      <td>{{e.percent}}</td>
+  </tr>
+</table>
